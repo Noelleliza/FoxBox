@@ -6,13 +6,10 @@ body{
   /*background-image: url('../images/hero-image.png') no-repeat top center;
   background: linear-gradient(#5CD4C2, #FFFFFF);*/
   background:linear-gradient(#A8E3DB,#fff);
+  background-size: cover;
   }
 
-  .bottom{
-    background:linear-gradient(#A8E3DB,#fff);
-  }
-
-h4, h5, h6{
+h4, h6{
   font-family: "Raleway", Helvetica, Arial, sans-serif;
 }
 
@@ -35,22 +32,15 @@ h3 {
   margin-left: 5px;
 }
 
-.box-txt{
-  color:#FBFEFD;
-  font-weight: 300;
-  font-size: 22px;
-  line-height: 32px;
-  text-align: center;
-
-  }
-
 .feat-txt{
     color: #51706D;
     font-size: 22px ;
     font-weight: 300;
     line-height: 32px ;
+    font-family: Raleway-Light;
   }
 
+  
  /* GRID */
  .container {
    margin-right: auto;
@@ -75,7 +65,7 @@ h3 {
    margin:0 2% 20px;
 }
 
- /*end grid*/
+ /*MEDIA*/
 
  @media (min-width: 768px) {
    .container {
@@ -195,15 +185,164 @@ header .hero p {
   mix-blend-mode: overlay;
  }
 
+ /*Fox in a box*/
+ .fox-in-box{
+  background:  url('../images/fox-box-img.png') no-repeat bottom center;
+  height: 790px;
+ }
+ .fox-in-box p{
+  padding-top:110px;
+  padding-left: 350px;
+  padding-right: 350px;
+}
+ .fox-in-box h2{
+  padding-top:100px;
+ }
+ .box-txt{
+  color:#FBFEFD;
+  font-weight: 200;
+  font-size: 22px;
+  line-height: 38px;
+  text-align: center;
+  width: 393px;
+  }
 
+/*BENEFITS*/
+li{
+  list-style: none;
+}
 
+.feature-box{
+background-color: #fff;
+float: right;
+width: 1290px;
+height: 683px;
+border-radius: 4px;
+box-shadow: 5px 4px 10px 0 rgba(0,0,0,0.12);
+}
 
+.feature-box-right{
+background-color: #fff;
+float: left;
+width: 1290px;
+height: 683px;
+border-radius: 4px;
+margin: 50px;
+box-shadow: 5px 4px 10px 0 rgba(0,0,0,0.12);
+}
 
+img .feature-box-right{
 
+}
 
+img .feature-box{
 
+}
 
+.feature-txt-right{
+  float: left;
+  width: 294px;
+  margin-right: 70px;
+  margin-left: 97;
+  text-align: right;
+}
 
+.feature-txt{
+  float: right;
+  width: 294px;
+  margin-right: 97px;
+  margin-left: 70px;
+  text-align: left;
+}
+ .benefits i {
+   color:#079B8D;
+   font-size:64px;
+   margin:0;
+   vertical-align: middle;
+   opacity: 0.5;
+ }
+
+/*PRICING*/
+ .pricing {
+   text-align: center;
+   padding:4em 0;
+ }
+.pricing ul {
+   margin:0 auto;
+   padding:2em 0;
+ }
+.box {
+   padding:0 15px 15px;
+   background: #FFFFFF;
+   box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.10);
+   min-height: 400px;
+   width: 263px;
+   position: relative;
+   margin-top: 25px;
+   border-radius: 80px;
+ }
+  .box.middle {
+   min-height: 497px;
+   min-width: 360px;
+   margin-top:0px;
+ }
+ .box.middle h4{
+  background: #F15D25;
+ }
+ .box h4 {
+   font-family: "Raleway", Helvetica, Arial, sans-serif;
+   font-weight: 600;
+   text-transform: uppercase;
+   font-size: 23px;
+   color: white;
+   background: #079B8D;
+   left:0;
+   right:0;
+   top:0;
+   text-align: center;
+   margin:0 -15px 40px;
+   padding:10px 0;
+   border-radius: 80px 80px 0 0;
+   height: 60px;
+ }
+ .box.middle h5{
+  font-size: 80px;
+  }
+ .box h5 {
+  font-family: sanchez;
+   font-size:36px;
+   font-weight: normal;
+   margin:40px 0 10px;
+   color:#079B8D;
+ }
+  .box h5 span {
+   font-size:24px;
+   vertical-align: top;
+ }
+  .box h5 span.month {
+   font-weight: 100;
+   color:#079B8D;
+   font-size:24px;
+   vertical-align: middle;
+ }
+ .box ul li {
+   color: #079B8D;
+   font-size:18px;
+   margin-bottom:20px;
+   font-weight: 100;
+ }
+ .box .btn {
+   position:absolute;
+   bottom:36px;
+   left:20px;
+   right:20px;
+ }
+ .small {
+   font-size: 12px;
+   color: #233331;
+   line-height: 15px;
+   font-style:italic;
+ }
 
 
 
