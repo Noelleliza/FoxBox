@@ -3,7 +3,13 @@ html, body  {
 }
 body{
   font-family: "Raleway", Helvetica, Arial, sans-serif;
-  background: #fff url('../images/hero-image.png') no-repeat top center;
+  /*background-image: url('../images/hero-image.png') no-repeat top center;
+  background: linear-gradient(#5CD4C2, #FFFFFF);*/
+  background:linear-gradient(#A8E3DB,#fff);
+  }
+
+  .bottom{
+    background:linear-gradient(#A8E3DB,#fff);
   }
 
 h4, h5, h6{
@@ -12,14 +18,6 @@ h4, h5, h6{
 
 h1, h2, h3 {
   font-family: "Sanchez", serif;
-}
-
-h1 {
-  color: #FBFEFD;
-  font-size: 50px;
-  font-weight: normal,
-  margin-bottom; 5px;
-  text-align: center;
 }
 
 h2 {
@@ -37,14 +35,6 @@ h3 {
   margin-left: 5px;
 }
 
-.hero-txt{
-  color:#FBFEFD;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 33px;
-  text-align: center;
-}
-
 .box-txt{
   color:#FBFEFD;
   font-weight: 300;
@@ -60,7 +50,6 @@ h3 {
     font-weight: 300;
     line-height: 32px ;
   }
-
 
  /* GRID */
  .container {
@@ -84,5 +73,132 @@ h3 {
    position:relative;
    min-height: 1px;
    margin:0 2% 20px;
- }
+}
+
  /*end grid*/
+
+ @media (min-width: 768px) {
+   .container {
+     width: 750px;
+   }
+ }
+ @media (min-width: 992px) {
+   .container {
+     width: 970px;
+   }
+   .one-half {
+     width:46%;
+   }
+   .one-third {
+     width:29.33333%;
+   }
+   .one-fourth {
+     width:21%;
+   }
+ }
+ @media (min-width: 1200px) {
+   .container {
+     width: 1170px;
+   }
+ }
+
+ /*Header*/
+ header{
+  background:
+    url(../images/hero-image.png) no-repeat top center;
+    height:751px;
+  }
+  header nav {
+   padding:1em 0;
+ }
+ header nav ul {
+   display:inline;
+   text-align: right;
+   float:right;
+   margin:0;
+ }
+ header nav ul > li {
+   list-style-type: none;
+   display: inline-block;
+   margin:0 15px;
+ }
+header nav ul > li.btn-outline {
+   padding:8px 25px;
+   border:0px solid #63D3C8;
+   border-radius: 18px;
+   background:#63D3C8;
+ }
+header nav ul > li.btn-outline:hover {
+   background:#FFFFFF;
+   border:0px solid #fff;
+ }
+ header nav ul > li > a {
+   color:#FFFFFF;
+   text-decoration: none;
+ }
+  header nav ul > li.btn-outline:hover > a {
+   color:#63D3C8;
+ }
+header .hero {
+   text-align: center;
+   display:block;
+   position: relative;
+ }
+ header .hero h1 {
+  color: #FBFEFD;
+  font-size: 48px;
+  font-weight: normal;
+  margin-top: 172px;
+  margin-bottom: 5px;
+}
+header .hero p {
+  color:#FBFEFD;
+   font-size: 24px;
+   line-height: 33px;
+   font-weight: 100;
+   margin:10px 0 40px;
+ }
+ header .hero img {
+   display: block;
+   margin:3em auto ;
+   margin-top: 116px;
+ }
+
+ /* BUTTONS */
+ .btn {
+   border-radius: 18px;
+   color:#FFFFFF;
+   font-weight: 400;
+   font-size: 18px;
+   text-decoration: none;
+   padding:8px 30px;
+   background: #F15D25;
+   border: 2px solid #F15D25;
+   box-shadow: 0px 2px 0px 0px #F15D25;
+ }
+ .triangle-arrow{
+  mix-blend-mode: overlay;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
