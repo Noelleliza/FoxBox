@@ -36,10 +36,9 @@ h3 {
     color: #51706D;
     font-size: 22px ;
     font-weight: 300;
-    line-height: 32px ;
+    line-height: 33px ;
     font-family: Raleway-Light;
   }
-
   
  /* GRID */
  .container {
@@ -220,39 +219,38 @@ height: 683px;
 border-radius: 4px;
 box-shadow: 5px 4px 10px 0 rgba(0,0,0,0.12);
 }
-
 .feature-box-right{
 background-color: #fff;
 float: left;
 width: 1290px;
 height: 683px;
 border-radius: 4px;
-margin: 50px;
+margin: 100px;
 box-shadow: 5px 4px 10px 0 rgba(0,0,0,0.12);
 }
-
-img .feature-box-right{
-
+.feature-image{
+  padding: 116px 0;
 }
-
-img .feature-box{
-
+.feature-image-right{
+  padding: 116px 0;
+  float: right;
+  position: absolute;
 }
-
 .feature-txt-right{
   float: left;
   width: 294px;
   margin-right: 70px;
-  margin-left: 97;
+  margin-left: 97px;
   text-align: right;
+  padding: 116px 0;
 }
-
 .feature-txt{
   float: right;
   width: 294px;
   margin-right: 97px;
   margin-left: 70px;
   text-align: left;
+  padding: 116px 0;
 }
  .benefits i {
    color:#079B8D;
@@ -344,8 +342,63 @@ img .feature-box{
    font-style:italic;
  }
 
+/*mockup*/
+.mockup{
+  bottom: 0;
 
+}
 
+/*FOOTER*/
+footer {
+   background-color: #;
+   background-image: linear-gradient(to top,
+      #AFEAE1 0%, #AFEAE1 50%, #51706D 50%, #51706D 100%);
+   color: #FFFFFF;
+   height: 80px;
+   position: relative;
+   overflow: hidden;
+   z-index: 0;
+ }
+ footer p, footer nav ul {
+   font-size:14px;
+   font-weight:150;
+   text-align: center;
+   margin: 10px auto 0;
+ }
+ footer nav ul li {
+   list-style-type: none;
+   display: inline;
+ }
+ footer nav ul li a {
+   color:#fff;
+   text-decoration: none;
+ }
+ footer .right-footer-block {
+   background-color: transparent;
+ }
+ footer .logo{
+   padding: .35em 0;
+   margin: 0 auto;
+   display: block;
+ }
+ @media (min-width: 992px){
+   footer{
+     background-color: #51706D;
+     background-image: linear-gradient(to left,
+        #51706D 0%, #51706D 33.33337%, #51706D 33.33337%, #51706D 100%);
+     height: 80px;
+   }
+   footer p, footer nav ul{
+     padding: 1.75em 0;
+     text-align: left;
+   }
+   footer .right-footer-block {
+     background-color: #51706D;
+   }
+   footer .logo{
+     padding: .5em 0 2em 0em;
+   }
+ }
 
 
 
