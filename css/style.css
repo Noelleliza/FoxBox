@@ -37,8 +37,16 @@ h3 {
     font-size: 22px ;
     font-weight: 300;
     line-height: 33px ;
-    font-family: Raleway-Light;
+    font-family: "Raleway-Light";
   }
+.note-txt{
+  font-family: "Sanchez";
+}
+.link-name{
+  font-size: 20px;
+  color: #fff;
+  font-weight: 400;
+}
   
  /* GRID */
  .container {
@@ -191,8 +199,9 @@ header .hero p {
  }
  .fox-in-box p{
   padding-top:110px;
-  padding-left: 350px;
-  padding-right: 350px;
+  left: -35px;
+  margin: auto;
+  position: relative;
 }
  .fox-in-box h2{
   padding-top:100px;
@@ -277,21 +286,25 @@ box-shadow: 5px 4px 10px 0 rgba(0,0,0,0.12);
    width: 263px;
    position: relative;
    margin-top: 25px;
+   margin-left: 15px;
+   margin-right: 15px;
    border-radius: 80px;
  }
   .box.middle {
    min-height: 497px;
    min-width: 360px;
    margin-top:0px;
+   margin-left: 15px;
+   margin-right: 15px;
  }
  .box.middle h4{
   background: #F15D25;
  }
  .box h4 {
    font-family: "Raleway", Helvetica, Arial, sans-serif;
-   font-weight: 600;
+   font-weight: 500;
    text-transform: uppercase;
-   font-size: 23px;
+   font-size: 26px;
    color: white;
    background: #079B8D;
    left:0;
@@ -299,7 +312,7 @@ box-shadow: 5px 4px 10px 0 rgba(0,0,0,0.12);
    top:0;
    text-align: center;
    margin:0 -15px 40px;
-   padding:10px 0;
+   padding:20px 0 0px;
    border-radius: 80px 80px 0 0;
    height: 60px;
  }
