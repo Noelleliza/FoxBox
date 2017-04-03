@@ -19,20 +19,13 @@
  <body class="dashboard">
  <!--Navigation-->
 <nav id="left-nav" class="left-nav">
-     <a href="#" class="site-logo"><img src="images/logo.png" /></a>
+     <a href="#" class="site-logo"><img src="images/logo.png" ></a>
+     <a href="#" class="up-btn"><img src="images/star.png">Upgrade</a>
      <div class="items">
-       <p>View</p>
        <ul>
-         <li><a href="#"><i class="fa fa-th-large"></i> All Items</a></li>
-         <li><a href="#"><i class="fa fa-file-o"></i> Notes</a></li>
-         <li><a href="file:///Users/noelle/Desktop/FoxBox/dashboard%20images.html"><i class="fa fa-picture-o"></i> Images</a></li>
-         <li><a href="#"><i class="fa fa-link"></i> Links</a></li>
-       </ul>
-       <p>Boxes</p>
-       <ul>
-         <li><a href="#"><i class="fa fa-inbox"></i> Landing Pages</a></li>
-         <li><a href="#"><i class="fa fa-inbox"></i> BB Photos</a></li>
-         <li><a href="#"><i class="fa fa-plus-square-o"></i> Add a new box</a></li>
+       <li><a href="#"><img src="images/add-button.png"><p>Add</p></a></li>
+       <li><a href="#"><img src="images/box-button.png"><p>Boxes</p></a></li>
+       <li><a href="#"><img src="images/view-button.png"><p>View</p></a></li>
        </ul>
      </div>
      <div class="settings">
@@ -48,10 +41,10 @@
      <div class="container">
        <div class="header">
          <h1>All Items</h1>
-         <a href="#" class="btn">Add</a>
        </div>
      </div>
-     <div class="container">
+     <div class="masonery">
+     <div class="flex-container-left">
        <div class="content-item">
          <div class="item-box">
          <img src="images/pineapple.png"/>
@@ -59,13 +52,25 @@
        </div>
        <div class="content-item">
          <div class="item-box">
-         <img src="images/meetup-logo.png" alt="Meetup">
-         <h4 class="link-name"><a href="https://www.meetup.com/" target="_blank">meetup.com</a></h4>
-         <p>Find Meetups so you can do more of  what matters to you. 
-            Or create your own  group and meet people near you who share your interests.</p>
-         <img src="images/park-group.png" alt="Meetup"/>
+         <h4 class="note-txt">To do this month</h4>
+         <p class="note-txt">
+            - Schedule vet appointment<br/>
+            - Buy Damien’s birthday present<br/>
+            - Email Nathalie about job<br/>
+            - Design business logo</p>
          </div>
        </div>
+       <div class="content-item">
+         <div class="item-box-vertical" class="url" id="meetup">
+         <img src="images/meetup-logo.png" alt="Meetup">
+         <h4 class="link-txt"><a href="https://www.meetup.com/" target="_blank">meetup.com</a></h4>
+         <p>Find Meetups so you can do more of  what matters to you. 
+            Or create your own  group and meet people near you who share your interests.</p>
+         <!--<img src="images/park-group.png" alt="Meetup"/>-->
+         </div>
+       </div>
+       </div>
+       <div class="flex-container-right">
        <div class="content-item">
          <div class="item-box">
          <p class="note-txt">I thought I must be dreaming that<br/>
@@ -80,28 +85,20 @@
          </div>
        </div>
        <div class="content-item">
-         <div class="item-box">
+         <div class="item-box" class="url" id="wework">
          <img src="images/wework-logo.png" alt="WeWork">
-         <h4 class="link-name"><a href="https://www.wework.com/" target="_blank">wework.com</a></h4>
+         <h4 class="link-txt"><a href="https://www.wework.com/" target="_blank">wework.com</a></h4>
          <p>WeWork transforms buildings into beautiful, collaborative workspaces. Get the space, community, and services you need to make a life, not just a living.</p>
-         <img src="images/office-group.png" alt="WeWork"/>
+         <!--<img src="images/office-group.png" alt="WeWork"/>-->
          </div>
        </div>
        <div class="content-item">
-         <div class="item-box">
-         <h4 class="note-txt">To do this month</h4>
-         <p class="note-txt">
-            - Schedule vet appointment<br/>
-            - Buy Damien’s birthday present<br/>
-            - Email Nathalie about job<br/>
-            - Design business logo</p>
-         </div>
-       </div>
-       <div class="content-item">
-         <div class="item-box">
+         <div class="item-box-horizontal">
          <img src="images/nyc.png" alt="NYC skyline"/>
          </div>
        </div>
+       </div>
+       <div class="flex-container-bottom">
        <div class="content-item">
          <div class="item-box">
          </div>
@@ -116,6 +113,7 @@
        </div>
        <div class="content-item">
          <div class="item-box">
+         </div>
          </div>
        </div>
      </div>
