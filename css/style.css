@@ -6,7 +6,7 @@ body{
   /*background-image: url('../images/hero-image.png') no-repeat top center;
   background: linear-gradient(#5CD4C2, #FFFFFF);*/
   background:linear-gradient(#A8E3DB,#fff);
-  background-size: cover;
+  margin: 0;
   }
 
 h4, h6{
@@ -154,9 +154,8 @@ h3 {
 
  /*Header*/
  header{
-  background:
-    url(../images/hero-image.png) no-repeat top center;
-    height:751px;
+  background: url(../images/hero-image.png) no-repeat top center;
+  background-size: cover;
   }
   header nav {
    padding:1em 0;
@@ -310,7 +309,7 @@ box-shadow: 5px 4px 10px 0 rgba(0,0,0,0.12);
 }
  .benefits i {
    color:#079B8D;
-   font-size:64px;
+   font-size:44px;
    margin:0;
    vertical-align: middle;
    opacity: 0.5;
