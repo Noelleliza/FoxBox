@@ -700,7 +700,7 @@ footer {
 /*Content items*/
  .item-box > img, .item-box-horizontal > img {
    position:absolute;
-   height:auto;
+   height:100%;
    width:auto;
    top:0;
    left:0;
