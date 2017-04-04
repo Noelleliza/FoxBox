@@ -37,14 +37,14 @@
 Keep notes, images and links all in one place and access them from anywhere.</p>
 <a href="signup.html" class="btn">Start your free trial</a>
      <!--<img src="images/hero-image.png" />-->
-     <a href="#"><img class="triangle-arrow" src="images/triangle-arrow.png"/></a>
+     <a href="#jump"><img class="triangle-arrow" src="images/triangle-arrow.png"/></a>
    </div>
  </header>
 
   <main role="main"> 
   
   <!--what's a box-->
-  <section class="fox-in-box">
+  <section class="fox-in-box" id="jump">
   <div class="container">
   <h2>What’s in a box?</h2>
   <p class="box-txt">Boxes act as your folders. They help you organize your content in logical, easy to navigate groups. <br/>
@@ -57,18 +57,17 @@ By theme or by team. You choose how and by whom your information is seen.
    
    <!-- Benefits -->
     <section class="benefits">
-   <ul class="container">
-   <li>
+   <div class="container">
+   
    <div class= "feature-box">
    <img class="feature-image" src= "images/notes.png" />
-   <div class="feature-txt">
+   <div class="feature-txt-top">
    <h3>Create notes</h3>
          <p class="feat-txt">Using Markdown, you can create simple text-based documents to save and share.<br/><br/> You can collaborate with others to write and edit content.</p>
          <i class="fa fa-file-o" aria-hidden="true"></i>
          </div>
          </div>
-       </li>
-       <li>
+      
        <div class= "feature-box-right">
        <div class="feature-txt-right">
          <h3>Save images</h3>
@@ -77,8 +76,7 @@ By theme or by team. You choose how and by whom your information is seen.
          </div>
          <img class="feature-image-right" src= "images/stringed-pictures.png" />
          </div>
-       </li>
-       <li>
+       
        <div class= "feature-box">
    <img class="feature-image" src= "images/macbook-desktop.png" />
    <div class="feature-txt">
@@ -87,8 +85,8 @@ By theme or by team. You choose how and by whom your information is seen.
          <p class="feat-txt">Forget bookmarking sites in your browser.<br/> <br/>With Foxbox, you can add links, group them and view them from any computer.</p>
          </div>
          </div>
-       </li>
-     </ul>
+       
+     </div>
    </section>
  </main>
 
@@ -98,21 +96,19 @@ By theme or by team. You choose how and by whom your information is seen.
      <h3>How much does Foxbox cost?</h3>
      <p class="feat-txt">We have many options to fit your needs. It's free to try for 30 days*, and you can always change your plan once you signed up. <br/>Here are the different features of each plan:</p>
    </div>
-   <ul class="container">
-     <li class="one-third">
-       <div class="box">
-         <h4>Casual</h4>
-         <h5>FREE</h5>
+   <ul class="flex-container">
+     <li class="box">
+           <h4>Casual</h4>
+           <h5>FREE</h5>
          <ul>
            <li>Up to 5 boxes</li>
            <li>Up to 10 collaborators</li>
            <li><strong>2GB</strong> of storage</li>
          </ul>
          <a href="signup.html" class="grn-btn">create free account</a>
-       </div>
-     </li>
-     <li class="one-third">
-      <div class="box middle">
+         </li>
+         
+     <li class="box middle">
         <h4>Professional</h4>
         <h5><span>$</span>5 <span class="month">/month</span></h5>
         <ul>
@@ -122,10 +118,9 @@ By theme or by team. You choose how and by whom your information is seen.
           <li>Real-time collaboration</li>
         </ul>
         <a href="signup.html" class="btn">start your free trial</a>
-      </div>
     </li>
-    <li class="one-third">
-      <div class="box">
+
+    <li class="box">
         <h4>Expert</h4>
         <h5><span>$</span>10 <span class="month">/month</span></h5>
         <ul>
@@ -135,19 +130,16 @@ By theme or by team. You choose how and by whom your information is seen.
           <li>Real-time collaboration</li>
         </ul>
         <a href="signup.html" class="grn-btn">start your free trial</a>
-      </div>
     </li>
     </ul>
-   </ul>
+   
 
     <div class="container">
    <p class="small">*We will not collect your credit card information until your 30 day trial has ended</p>
 </div>
  </section>
  
- <div class="container" class="mockup">
-<img src= "images/macbook-mockup-foxbox.png" />
-</div>
+<img src= "images/macbook-mockup-foxbox.png" class="container" id="mockup"/>
  
  <!-- temporary homework code
  <h2>What are you waiting for!?</h2>
