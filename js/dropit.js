@@ -95,4 +95,3 @@
     $.fn.dropit.settings = {};
 
 })(jQuery);
-Contact GitHub API Training Shop Blog About

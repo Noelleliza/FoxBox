@@ -527,13 +527,15 @@ footer .logo {
   margin: 0 ;
   padding: 0;
 }
-.left-nav .items ul li {
+.items li, .plus-btn li {
   float: left;
   list-style-type: none;
   margin-bottom: 16px;
   margin-right: 60px;
+  text-align: center;
+  width: 40px;
 }
-.left-nav .items ul li a {
+.left-nav .items ul li a, .plus-btn ul li a {
   color: #51706D;
   font-weight: 100;
   text-decoration: none;
@@ -541,6 +543,7 @@ footer .logo {
 .left-nav ul li img {
   margin: 0;
 }
+
 .up-btn {
   background: #63D3C8;
   border-radius: 20px;
@@ -589,13 +592,14 @@ footer .logo {
   text-align: right;
   text-decoration: none;
 }
+
 /*DASHBOARD CONTENT */
 .content {
   padding: 6em 1% 1.5em;
   position: relative;
   width: 98%;
 }
-.content .header {
+.content .header, .content .plus-btn {
   float: right;
   margin: 80px 1% 0;
 }
@@ -609,8 +613,11 @@ footer .logo {
   line-height: 44px;
   margin: 0 0 30px;
 }
-.content .header > a {
+.content .header > a, .content .plus-btn > a {
   float: right;
+}
+.plus-btn{
+  margin-bottom: 50px;
 }
 
 .grid {
@@ -740,7 +747,7 @@ footer .logo {
   font-family: 'Raleway';
   font-size: 22px;
   font-weight: 100;
-  margin: 0 0 8px 0;
+  margin: 0;
   text-align: left;
   text-decoration: none;
 }
@@ -749,7 +756,7 @@ footer .logo {
   float: right;
   font-size: 14px;
   line-height: 18px;
-  margin: 8px ;
+  margin: 15px ;
 }
 #meetup {
   background: #FFF url('../images/park-group.png') no-repeat;
@@ -759,18 +766,20 @@ footer .logo {
   background: #FFF url('../images/office-group.png') no-repeat;
   background-size: cover;
 }
-#meetup > img,
-#wework > img {
-  height: 83px;
+#meetup img,
+#wework img {
+  max-height: 83px;
   margin: auto;
   padding-bottom: 0;
   padding-top: 20px;
+  display: block;
 }
 #wework p,
 #meetup p {
   color: #FFF;
   font-weight: 300;
   size: 13px;
+  margin: 15px;
 }
 .a {
   background: #FFF url('../images/pineapple.png') no-repeat;

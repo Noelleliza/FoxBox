@@ -11,6 +11,7 @@
    <!--CSS-->
  <link rel="stylesheet" href="css/normalize.css">
  <link rel="stylesheet" href="css/font-awesome.css">
+ <link rel="stylesheet" href="css/dropit.css">
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
  <link rel="stylesheet" href="css/style.css">
   
@@ -23,9 +24,43 @@
      <a href="#" class="up-btn"><img src="images/star.png">Upgrade</a>
      <div class="items">
        <ul>
-       <li><a href="#"><img src="images/add-button.png"><p>Add</p></a></li>
-       <li><a href="#"><img src="images/box-button.png"><p>Boxes</p></a></li>
-       <li><a href="#"><img src="images/view-button.png"><p>View</p></a></li>
+       <ul class="menu">
+    <li>
+        <a href="#"><img src="images/add-button.png">Add</a>
+        <ul class="animated bounceInDown">
+            <li><a href="#"><i class="fa fa-file-o"></i>Note</a></li>
+            <li><a href="#"><i class="fa fa-picture-o"></i>Image</a></li>
+            <li><a href="#"><i class="fa fa-link"></i>Link</a></li>
+            <li><a href="#"><i class="fa fa-archive"></i>Box</a></li>
+        </ul>
+    </li>
+</ul>
+       <!--li><a href="#"><img src="images/add-button.png">Add</a></li-->
+       <ul class="menu">
+    <li>
+        <a href="#"><img src="images/box-button.png">Boxes</a>
+        <ul class="animated bounceInDown">
+            <li><a href="#"><i class="fa fa-connectdevelop"></i>All Boxes</a></li>
+            <li><a href="#"><i class="fa fa-archive"></i>Box 1</a></li>
+            <li><a href="#"><i class="fa fa-archive"></i>Box 2</a></li>
+            <li><a href="#"><i class="fa fa-plus-circle"></i>Add box</a></li>
+        </ul>
+    </li>
+</ul>
+       <!--li><a href="#"><img src="images/box-button.png">Boxes</a></li-->
+         <ul class="menu">
+    <li>
+        <a href="#"><img src="images/view-button.png">View</a>
+        <ul class="animated bounceInDown">
+            <li><a href="#"><i class="fa fa-connectdevelop"></i>All Items</a></li>
+            <li><a href="#"><i class="fa fa-file-o"></i>Notes</a></li>
+            <li><a href="#"><i class="fa fa-picture-o"></i>Images</a></li>
+            <li><a href="#"><i class="fa fa-link"></i>Links</a></li>
+            <li><a href="#"><i class="fa fa-archive"></i>Boxes</a></li>
+        </ul>
+    </li>
+</ul>
+       <!--li><a href="#"><img src="images/view-button.png">View</a></li-->
        </ul>
      </div>
      <div class="settings">
@@ -35,7 +70,9 @@
    </div>
    </nav>
 
+
   <main role="main">
+
    <!-- CONTENT -->
    <section class="content">
      <div class="container">
@@ -96,6 +133,19 @@
       <div class="content-item vertical">
       </div>
      </div>
+     <div class="plus-btn">
+        <ul class="menu">
+    <li>
+        <a href="#"><img src="images/add-button.png"></a>
+        <ul class="animated bounceInUp">
+            <li><a href="#"><i class="fa fa-file-o"></i>Note</a></li>
+            <li><a href="#"><i class="fa fa-picture-o"></i>Image</a></li>
+            <li><a href="#"><i class="fa fa-link"></i>Link</a></li>
+            <li><a href="#"><i class="fa fa-archive"></i>Box</a></li>
+        </ul>
+    </li>
+</ul>
+      </div>
      <!--<div class="masonery">
      <div class="flex-container-left">
        <div class="content-item">
@@ -170,5 +220,10 @@
      </div>-->
    </section>
  </main>
+ <script src="js/jquery-3.2.0.min.js"></script>
+ <script src="js/dropit.js"></script>
+ <script type="text/javascript">
+     $(".menu").dropit();
+   </script>
  </body>
  </html>

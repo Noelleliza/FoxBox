@@ -10,8 +10,10 @@
 /* These styles assume you are using ul and li */
 .dropit {
     list-style: none;
-  padding: 0;
-  margin: 0;
+	padding: 0;
+    margin: 15px 0 0;
+    float:left;
+    display:inline-block;
 }
 .dropit .dropit-trigger { position: relative; }
 .dropit .dropit-submenu {
@@ -20,9 +22,33 @@
     left: 0; /* dropdown left or right */
     z-index: 1000;
     display: none;
-    min-width: 150px;
+    max-width: 115px;
     list-style: none;
-  padding: 0;
-  margin: 0;
+	padding: 20px;
+	margin: 20px 0 0;
 }
-.dropit .dropit-open .dropit-submenu { display: block; }
+.dropit .dropit-open .dropit-submenu { 
+    display: block; 
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.30);
+    border-radius: 0px 0px 4px 4px;
+}
+.dropit .dropit-open .dropit-submenu li:last-child {
+  margin-bottom: 5px;
+ }
+ .dropit .dropit-open .dropit-submenu li:first-child {
+  margin-top: 20px;
+ }
+ .dropit .dropit-open .dropit-submenu li {
+  display: inline;
+  margin-bottom: 20px;
+  margin-left: 15px;
+  text-align: left;
+  width: 100px;
+ }
+ .dropit .dropit-open .dropit-submenu i {
+    margin-right: 8px;
+}
+
+
+
