@@ -806,6 +806,18 @@ footer .logo {
   overflow: hidden;
 }
 
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+.image img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+
 .vertical {
   grid-row: span 2;
 }
