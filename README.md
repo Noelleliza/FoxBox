@@ -1,1 +1,1 @@
-### Hello it's **me** you're looking _for_
+FoxBox is a web application that allows users to save, organize and share notes, links and images. I developed the branding and logo design, created the wireframes and visual design as well conducted user research and usability tests for this project. I also was responsible for developing the site using html and css.
