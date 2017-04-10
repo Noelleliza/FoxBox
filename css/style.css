@@ -708,8 +708,15 @@ footer .logo {
   text-align: center;
   width: 40px;
 }
+.plus-btn .dropit .dropit-submenu {
+  top:-194px;
+  left: -34px;
+  }
+  .plus-btn .dropit .dropit-open .dropit-submenu {
+    border-radius: 4px;
+  }
 
-.left-nav .items ul li a, .plus-btn ul li a {
+.left-nav .items ul li a, .plus-btn ul li a, .settings ul li a {
   color: #51706D;
   font-weight: 100;
   text-decoration: none;
@@ -717,6 +724,10 @@ footer .logo {
 .left-nav ul li img {
   margin: 0;
 }
+.dropit .dropit-submenu {
+  top:111%;
+  left: -34px;
+  }
 
 /* LEFT NAVBAR SETTINGS */
  @media (min-width:992px) {
@@ -747,12 +758,28 @@ footer .logo {
   display: inline-block;
   margin-top: 8px;
 }
-#set ul li {
-  float: left;
-  text-align: left;
-  align-content: center;
-  display: block;
+.left-nav .settings a:last-child {
+margin-bottom: 6px;
 }
+
+.settings li {
+  list-style-type: none;
+  text-align: left;
+}
+.settings .dropit .dropit-submenu {
+    position: absolute;
+    top: 109%;
+    left: -76px; /* dropdown left or right */
+    z-index: 1000;
+    display: none;
+    list-style: none;
+  padding: 0px;
+  margin: 0;
+  max-width: 215%;
+}
+.settings .dropit .dropit-open .dropit-submenu li:last-child {
+  margin-bottom: 15px;
+ }
 
 /*DASHBOARD CONTENT */
 .content {
